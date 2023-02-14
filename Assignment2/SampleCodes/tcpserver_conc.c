@@ -93,7 +93,6 @@ int main()
 			printf("Accept error\n");
 			exit(0);
 		}
-
 		/* Having successfully accepted a client connection, the
 		   server now forks. The parent closes the new socket
 		   descriptor and loops back to accept the next connection.
